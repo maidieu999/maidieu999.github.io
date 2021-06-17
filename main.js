@@ -23,15 +23,15 @@ window.addEventListener('scroll', function(){
 
 
 // init Isotope
-var $grid = $('.portfolio__filter').isotope({
-    // set itemSelector so .grid-sizer is not used in layout
-    itemSelector: '.artwork__img',
-    layoutMode: 'masonry'
-  });
+// var $grid = $('.portfolio__filter').isotope({
+//     // set itemSelector so .grid-sizer is not used in layout
+//     itemSelector: '.artwork__img',
+//     layoutMode: 'masonry'
+//   });
   // layout Isotope after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.isotope('layout');
-  });
+//   $grid.imagesLoaded().progress( function() {
+//     $grid.isotope('layout');
+//   });
 
 
     
